@@ -1,7 +1,7 @@
-# MySQL Connector/ODBC Driver Win32 Chocolatey package
+# MySQL Connector/ODBC Win32 Driver Chocolatey package
 
 ## Description
-This is a definition for the MySQL Connector/ODBC Driver Win32 Chocolatey package.
+This is a definition for the MySQL Connector/ODBC Win32 Driver Chocolatey package.
 
 The package can be found here: https://community.chocolatey.org/packages/mysql.odbc.win32
 
