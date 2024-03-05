@@ -1,27 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>mysql.odbc</id>
-    <version>8.3.0</version>
-    <packageSourceUrl>https://github.com/bombergio/choco-mysql-connector-odbc</packageSourceUrl>
+    <id>mysql.odbc.win32</id>
+    <version>8.0.33</version>
+    <packageSourceUrl>https://github.com/ebonato/choco-mysql-connector-odbc-win32</packageSourceUrl>
     <owners>bombergio</owners>
-    <title>MySQL Connector/ODBC Driver (Install)</title>
+    <title>MySQL Connector/ODBC Driver Win32 (Install)</title>
     <authors>Oracle</authors>
     <projectUrl>https://dev.mysql.com/downloads/connector/odbc</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/bombergio/choco-mysql-connector-odbc/Mysql.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ebonato/choco-mysql-connector-odbc-win32/Mysql.png</iconUrl>
     <copyright>2024 Oracle</copyright>
-    <licenseUrl>https://downloads.mysql.com/docs/licenses/connector-odbc-8.3-gpl-en.pdf</licenseUrl>
+    <licenseUrl>https://downloads.mysql.com/docs/licenses/connector-odbc-8.0-gpl-en.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://dev.mysql.com/doc/connector-odbc/en/index.html</docsUrl>
     <bugTrackerUrl>https://bugs.mysql.com/</bugTrackerUrl>
-    <tags>mysql odbc x64</tags>
-    <summary>Standardized MySQL database driver for Windows</summary>
+    <tags>mysql odbc x86</tags>
+    <summary>Standardized MySQL database driver Win32 for Windows</summary>
     <description>
-    The MySQL Connector/ODBC is the name for the family of MySQL ODBC drivers (previously called MyODBC drivers) that provide access to a MySQL database using the industry standard Open Database Connectivity (ODBC) API. This reference covers Connector/ODBC 8.0, which includes the functionality of the Unicode driver and the ANSI driver.
+    The MySQL Connector/ODBC is the name for the family of MySQL ODBC Win32 drivers (previously called MyODBC drivers) that provide access to a MySQL database using the industry standard Open Database Connectivity (ODBC) API. This reference covers Connector/ODBC 8.0, which includes the functionality of the Unicode driver and the ANSI driver.
 MySQL Connector/ODBC provides both driver-manager based and native interfaces to the MySQL database, with full support for MySQL functionality, including stored procedures, transactions and, with Connector/ODBC 5.1 and higher, full Unicode compliance.</description>
-    <dependencies>
-      <dependency id='vcredist140' />
-    </dependencies>
     <releaseNotes>https://dev.mysql.com/doc/relnotes/connector-odbc/en/</releaseNotes>
   </metadata>
   <files>
