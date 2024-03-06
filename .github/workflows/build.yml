@@ -1,4 +1,4 @@
-name: Build and test mysql.odbc package
+name: Build and test mysql.odbc.win32 package
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   pack:
-    name: Package mysql.odbc
+    name: Package mysql.odbc.win32
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -23,9 +23,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: package
-          path: mysql.odbc.*.nupkg
+          path: mysql.odbc.win32.*.nupkg
   test:
-    name: Test mysql.odbc
+    name: Test mysql.odbc.win32
     needs: pack
     runs-on: windows-latest
     steps:
@@ -36,4 +36,4 @@ jobs:
       - name: test package
         uses: crazy-max/ghaction-chocolatey@v2
         with:
-          args: install mysql.odbc -dv -s .
+          args: install mysql.odbc.win32 -dv -s .
