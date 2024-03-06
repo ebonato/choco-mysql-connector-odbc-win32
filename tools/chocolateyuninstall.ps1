@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'mysql odbc driver*'
+  softwareName  = 'mysql odbc win32 driver*'
   fileType      = 'msi'
   silentArgs    = "/qn"
   validExitCodes= @(0)
