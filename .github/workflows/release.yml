@@ -1,4 +1,4 @@
-name: Build and release mysql.odbc package to Chocolatey
+name: Build and release mysql.odbc.win32 package to Chocolatey
 
 on:
   pull_request:
