@@ -19,9 +19,6 @@
     <description>
     The MySQL Connector/ODBC is the name for the family of MySQL ODBC Win32 drivers (previously called MyODBC drivers) that provide access to a MySQL database using the industry standard Open Database Connectivity (ODBC) API. This reference covers Connector/ODBC 8.0, which includes the functionality of the Unicode driver and the ANSI driver.
 MySQL Connector/ODBC provides both driver-manager based and native interfaces to the MySQL database, with full support for MySQL functionality, including stored procedures, transactions and, with Connector/ODBC 5.1 and higher, full Unicode compliance.</description>
-    <dependencies>
-      <dependency id='vcredist140' />
-    </dependencies>
     <releaseNotes>https://dev.mysql.com/doc/relnotes/connector-odbc/en/</releaseNotes>
   </metadata>
   <files>
